@@ -4,11 +4,7 @@
 web3j: Web3 Java Ethereum Ðapp API
 ==================================
 
-.. Will revert back to web3j badge (https://readthedocs.org/projects/web3j/badge/?version=latest),
-   when they finally fix their build server issues for the project, see
-   https://github.com/rtfd/readthedocs.org/issues/2476 for further information
-
-.. image:: https://img.shields.io/badge/docs-latest-brightgreen.svg?style=flat
+.. image:: https://readthedocs.org/projects/web3j/badge/?version=latest
    :target: http://docs.web3j.io
    :alt: Documentation Status
 
@@ -125,7 +121,7 @@ Java 8:
    <dependency>
      <groupId>org.web3j</groupId>
      <artifactId>core</artifactId>
-     <version>3.1.0</version>
+     <version>3.2.0</version>
    </dependency>
 
 Android:
@@ -135,7 +131,7 @@ Android:
    <dependency>
      <groupId>org.web3j</groupId>
      <artifactId>core</artifactId>
-     <version>3.0.1-android</version>
+     <version>3.1.1-android</version>
    </dependency>
 
 Gradle
@@ -145,13 +141,13 @@ Java 8:
 
 .. code-block:: groovy
 
-   compile ('org.web3j:core:3.1.0')
+   compile ('org.web3j:core:3.2.0')
 
 Android:
 
 .. code-block:: groovy
 
-   compile ('org.web3j:core:3.0.1-android')
+   compile ('org.web3j:core:3.1.1-android')
 
 
 Start a client
@@ -518,6 +514,7 @@ Please submit a pull request if you wish to include your project on the list:
   `@adridadou <https://github.com/adridadou>`_
 - `Ethereum Paper Wallet <https://github.com/matthiaszimmermann/ethereum-paper-wallet>`_ by
   `@matthiaszimmermann <https://github.com/matthiaszimmermann>`_
+- `Trust Ethereum Wallet <https://github.com/TrustWallet/trust-wallet-android>`_
 
 
 Companies using web3j
@@ -527,8 +524,11 @@ Please submit a pull request if you wish to include your company on the list:
 
 - `Amberdata <https://www.amberdata.io/>`_
 - `blk.io <https://blk.io>`_
+- `comitFS <http://www.comitfs.com/>`_
 - `ConsenSys <https://consensys.net/>`_
+- `ING <https://www.ing.com>`_
 - `Othera <https://www.othera.io/>`_
+- `TrustWallet <http://trustwalletapp.com>`_
 
 
 Build instructions
